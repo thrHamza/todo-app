@@ -43,6 +43,13 @@ git clone https://github.com/thrHamza/todo-app.git
             
     - Installer les dépendances :
         - `composer install`
+     
+    - Configurer le fichier `.env` :
+        - Copier `.env.example` en `.env`
+          
+    - Définir la base de données SQLite :
+        - `DB_CONNECTION=sqlite`  
+          `DB_DATABASE=database/database.sqlite`
             
     - Exécuter les migrations :
         - `php artisan migrate`
