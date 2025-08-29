@@ -56,7 +56,7 @@ git clone https://github.com/thrHamza/todo-app.git
             
     - Lancer le serveur Laravel :
         
-        - `php artisan migrate`
+        - http://127.0.0.1:8000/
 - **Frontend :**
     
     - Se rendre dans le dossier frontend :
